@@ -70,6 +70,9 @@
 .projects-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+.projects-list-link {
+  text-decoration: none;
+}
 
 .projects-content {
   padding-left: 24px;
@@ -87,11 +90,12 @@
 
   color: var(--title-text-color);
 }
-.project-type {
+.projects-list-link .project-type {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 .projects-img {
